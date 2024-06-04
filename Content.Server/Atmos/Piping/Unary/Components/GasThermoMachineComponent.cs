@@ -22,7 +22,7 @@ namespace Content.Server.Atmos.Piping.Unary.Components
         ///     Tolerance for temperature setpoint hysteresis.
         /// </summary>
         [DataField, ViewVariables(VVAccess.ReadOnly)]
-        public float TemperatureTolerance = 2f;
+        public float TemperatureTolerance = 100f;
 
         /// <summary>
         ///     Implements setpoint hysteresis to prevent heater from rapidly cycling on and off at setpoint.
